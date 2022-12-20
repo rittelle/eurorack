@@ -1,0 +1,22 @@
+#+title: Notes on my first Eurorack VCO
+#+date: <2022-12-20 Tue>
+
+- based on [[http://web.archive.org/web/20220120221542/http://www.djerickson.com/synth/][Dave Erickson's design]]
+
+* Parts
+
+- opamp, ota from the reference
+- had to look for a new matched transistor pair
+  - even Mouser did not have SSM2220 and PM5201
+  - [[DMMT3906W][DMMT3906W]] seem to be a good replacement are in stock (and plenty)
+    - apparently based on the 2N3906
+  - transistor pairs with a specified matching seem to be rare
+  - metrics:
+    - matching ≤2% (10% is more common)
+    - current gain in the ballpark of a 2N3906
+      - a high current gain would lead to a small base current and therefore a worse SNR (?)
+  - SOT363 is pretty much unavoidable
+
+* Changes
+
+- only one CV in (keeping the module minimal)
