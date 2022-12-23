@@ -1,0 +1,7 @@
+*-backups/*.zip
+\#auto_saved_files#
+fp-info-cache
+*.log
+*.op.raw
+*.plt
+*.raw
