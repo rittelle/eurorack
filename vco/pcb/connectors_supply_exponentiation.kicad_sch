@@ -2687,7 +2687,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8377876a-5e8b-4e54-997a-1eb90183161b)
     (property "Reference" "D3" (id 0) (at 242.57 80.01 0))
-    (property "Value" "D" (id 1) (at 242.57 82.55 0))
+    (property "Value" "1N4148" (id 1) (at 242.57 82.55 0))
     (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (id 2) (at 242.57 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3105,7 +3105,7 @@
     (pin "2" (uuid a1abd2fd-f401-4545-b075-89fdbf548ff1))
   )
 
-  (symbol (lib_id "Switch:SW_SPDT") (at 143.51 34.29 0) (unit 1)
+  (symbol (lib_id "Switch:SW_SPDT") (at 143.51 34.29 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d987e7cb-4559-49cb-bb8f-53111480767f)
     (property "Reference" "SW1" (id 0) (at 143.51 26.67 0))
