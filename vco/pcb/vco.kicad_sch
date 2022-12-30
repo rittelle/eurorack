@@ -240,6 +240,18 @@
     (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/62d58f50-ae22-482b-b6be-69be0c3186ac"
       (reference "#PWR0112") (unit 1) (value "-12V") (footprint "")
     )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/047064d8-7815-4efe-9097-99a5e2643eac"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/32259663-1ac6-41dd-ac0f-d3558d6a1a3f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/6d420069-66bb-4dea-950d-bd1eff7c432c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/d1de3318-9e20-4eee-b748-61c7728458d8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/6e4daa59-c171-467b-b02d-64e32ac9dc00/ef510a58-2c2f-4b0a-a5f7-f6a4931f88f2"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -497,6 +509,18 @@
     )
     (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/718cbe4a-2ce6-4647-bc2c-147fe2447fd6"
       (reference "R54") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/1c167cd9-e6c4-4e2b-91f9-97cb7e5d6441"
+      (reference "R?") (unit 1) (value "DNS") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/555b3d1c-2332-4033-8209-d00911e6ac41"
+      (reference "R?") (unit 1) (value "DNS") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/9df82970-e6ad-4df8-81fd-4743c8ab23f9"
+      (reference "R?") (unit 1) (value "DNS") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/d114731b-38bd-4844-b495-23d91a90dc73"
+      (reference "R?") (unit 1) (value "DNS") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/6e4daa59-c171-467b-b02d-64e32ac9dc00/c806771e-6800-414a-ac10-3b0219f5d34e"
       (reference "RV1") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
