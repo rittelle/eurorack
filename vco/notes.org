@@ -20,3 +20,31 @@
 * Changes
 
 - only one CV in (keeping the module minimal)
+
+* Buy List
+
+** Mouser
+
+- Matched PNPs: [[DMMT3906W][DMMT3906W]]
+- Schottky Diodes: [[https://www.mouser.de/ProductDetail/Diodes-Incorporated/B130-13-F?qs=ktxrFkbdJI2hK4V%252BoGYiAQ%3D%3D][Mouser, B130-13-F (SMA)]]
+- Signal Diodes: [[https://www.mouser.de/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D][Mouser, 1N4148WS (onsemi)]]
+- OPA TL072: [[https://www.mouser.de/ProductDetail/Texas-Instruments/TL072CDR?qs=rshUhwi3fbas9IM4CCaZdw%3D%3D][Mouser, TL072CDR]]
+- OPA TL074: [[https://www.mouser.de/ProductDetail/Texas-Instruments/TL074CDR?qs=JHHQeKcAU3DpSs9HtWA42Q%3D%3D][Mouser, TL074CDR]]
+- OTA LM13700: [[https://www.mouser.de/ProductDetail/Texas-Instruments/LM13700MX-NOPB?qs=X1J7HmVL2ZEZitMdTjSZsg%3D%3D][Mouser, LM13700MX/NOPB]]
+- ICM7555: [[https://www.mouser.de/ProductDetail/Renesas-Intersil/ICM7555IBAZ-T?qs=9fLuogzTs8LEGja2%2FCTbog%3D%3D][Mouser, Renesas ICM7555IBAZ-T]]
+- NPN BC847A: [[https://www.mouser.de/ProductDetail/Nexperia/BC847C215?qs=me8TqzrmIYVnv3C18%2Fxa3Q%3D%3D][Nexperia BC847C,215 SOT-23-3]]
+- Pin headers: [[https://www.mouser.de/ProductDetail/Samtec/TSW-105-07-G-D?qs=sGAEpiMZZMvlX3nhDDO4ANFChvt4cqyCvoNiTMK4De4%3D][Mouser, Samtec TSW-105-07-G-D]]
+- LED: [[https://www.mouser.de/ProductDetail/Kingbright/WP424IDT?qs=sGAEpiMZZMuCm2JlHBGeftPm391HUMa7hZza70MmmJQ%3D][Mouser, 3mm zylindrisch bedrahtet]]
+
+** Thonkiconn
+
+- Jacks: [[https://www.thonk.co.uk/shop/3-5mm-jacks/][PJ398SM]]
+- Pots (front plate): [[https://www.thonk.co.uk/shop/alpha-9mm-pots-dshaft/][Alpha 9mm, 6mm D-Shaft, 100k]]
+- Knobs: [[https://www.thonk.co.uk/shop/intellijel-black-knobs/][Intellijel style (Small, Medium with Skirt)]]
+- Trim pots: [[https://www.thonk.co.uk/shop/25-turn-trimmer-potentiometer/][Bourns 3296W]]
+  - 100k
+  - 100R
+- Switches: [[https://www.thonk.co.uk/shop/sub-mini-toggle-switches/][Sub-miniature switches ON-ON (SPDT)]]
+- Switch caps: [[https://www.thonk.co.uk/shop/switchcaps-sub-mini/][Sub-minitiature switch caps]]
+- Power cables: [[https://www.thonk.co.uk/shop/eurorack-power-cables/][Power Cables (10-16 Pin)]]
+- Tempco resistors: [[https://www.thonk.co.uk/shop/tempco-resistor-akaneohm/][2k, bedrahtet]]
