@@ -262,10 +262,10 @@
       (reference "C7") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/8ae9128e-6514-4eb7-9278-433ccb554644"
-      (reference "C8") (unit 1) (value "DNS") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C8") (unit 1) (value "2n2") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/7e4f5407-16f4-44a3-b8bd-0d982d2d6ecd"
-      (reference "C9") (unit 1) (value "2n2") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+      (reference "C9") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/f11b6682-dc33-4a06-9bbc-0f263fcf991b"
       (reference "C10") (unit 1) (value "470p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -524,6 +524,9 @@
     )
     (path "/6e4daa59-c171-467b-b02d-64e32ac9dc00/d987e7cb-4559-49cb-bb8f-53111480767f"
       (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Thonkiconn:Switch_Sub-Minitiature_Vertical")
+    )
+    (path "/582802d3-5bb3-4e5c-86db-0ea7c1a9aa16/5a48ee70-6f0f-4918-8d13-e27b8a840f49"
+      (reference "SW2") (unit 1) (value "SW_SPDT") (footprint "Thonkiconn:Switch_Sub-Minitiature_Vertical")
     )
     (path "/6e4daa59-c171-467b-b02d-64e32ac9dc00/00ef6a1f-d7f1-4efc-b70e-a3bd50bf724d"
       (reference "U1") (unit 1) (value "TL072") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
