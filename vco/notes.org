@@ -1,5 +1,5 @@
 #+title: Notes on my first Eurorack VCO
-#+date: <2022-12-20 Tue>
+#+date: <2022-12-30 Fri>
 
 - based on [[http://web.archive.org/web/20220120221542/http://www.djerickson.com/synth/][Dave Erickson's design]]
 
@@ -20,6 +20,11 @@
 * Changes
 
 - only one CV in (keeping the module minimal)
+- sine output correction
+- inverted saw wave output (for a lfo variant)
+- added an led to indicate lfo activity
+- polarity protection
+- substituted the matched transistor pair
 
 * Buy List
 
