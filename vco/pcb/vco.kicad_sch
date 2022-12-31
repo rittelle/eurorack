@@ -286,10 +286,10 @@
       (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/6e4daa59-c171-467b-b02d-64e32ac9dc00/063af86f-f9f4-45e8-a256-27487020e951"
-      (reference "D1") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SMA_Handsoldering")
+      (reference "D1") (unit 1) (value "B130-13F") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/6e4daa59-c171-467b-b02d-64e32ac9dc00/62f5ca5b-b6a2-41d5-a96d-8e63256b4ec3"
-      (reference "D2") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SMA_Handsoldering")
+      (reference "D2") (unit 1) (value "B130-13F") (footprint "Diode_SMD:D_SMA_Handsoldering")
     )
     (path "/6e4daa59-c171-467b-b02d-64e32ac9dc00/8377876a-5e8b-4e54-997a-1eb90183161b"
       (reference "D3") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
