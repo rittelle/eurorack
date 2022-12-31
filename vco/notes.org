@@ -1,5 +1,5 @@
 #+title: Notes on my first Eurorack VCO
-#+date: <2022-12-30 Fri--<2022-12-31 Sat>>
+#+date: <2022-12-31 Sat>
 
 - based on [[http://web.archive.org/web/20220120221542/http://www.djerickson.com/synth/][Dave Erickson's design]]
 
@@ -25,6 +25,28 @@
 - added an led to indicate lfo activity
 - polarity protection
 - substituted the matched transistor pair
+- added a switch for a lfo mode
+
+* Front panel
+
+- Aluminium core PCB as front panel
+- KiCad is not well suited for panel design
+- Switched to Inkscape
+
+** Workflow
+
+1. Place mounting holes in the Schematic
+2. Export the drill file as .svg (check the unit settings!)
+3. Import the .svg into Inkscape
+4. Design the panel
+5. Export the panel as a .png with a high DPI setting (≥512dpi)
+6. Use KiCads Bitmap to Component-Converter to convert the .png
+7. Adjust the level setting if needed
+8. Copy the footprint into the clipboard
+9. Paste it into the Layout
+10. Verify that the quality is acceptable
+11. Integrate the panel design
+12. When exporting to gerber, disable the component markings in the export dialog
 
 * Buy List
 
@@ -40,6 +62,7 @@
 - NPN BC847A: [[https://www.mouser.de/ProductDetail/Nexperia/BC847C215?qs=me8TqzrmIYVnv3C18%2Fxa3Q%3D%3D][Nexperia BC847C,215 SOT-23-3]]
 - Pin headers: [[https://www.mouser.de/ProductDetail/Samtec/TSW-105-07-G-D?qs=sGAEpiMZZMvlX3nhDDO4ANFChvt4cqyCvoNiTMK4De4%3D][Mouser, Samtec TSW-105-07-G-D]]
 - LED: [[https://www.mouser.de/ProductDetail/Kingbright/WP424IDT?qs=sGAEpiMZZMuCm2JlHBGeftPm391HUMa7hZza70MmmJQ%3D][Mouser, 3mm zylindrisch bedrahtet]]
+- 10u 0603 25V X5R
 
 ** Thonkiconn
 
