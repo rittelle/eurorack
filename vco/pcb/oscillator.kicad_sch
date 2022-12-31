@@ -5,9 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Oscillator")
-    (date "2022-12-30")
-    (rev "Rev. 1")
+    (title "(VC|LF)O Oscillator")
+    (date "2022-12-31")
+    (rev "Rev. 1 2022")
+    (company "L. Rittel")
   )
 
   (lib_symbols

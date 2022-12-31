@@ -6,8 +6,9 @@
 
   (title_block
     (title "Eurorack VCO")
-    (date "2022-12-30")
-    (rev "Rev. 1")
+    (date "2022-12-31")
+    (rev "Rev. 1 2022")
+    (company "L. Rittel")
   )
 
   (lib_symbols
