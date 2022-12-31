@@ -1,5 +1,5 @@
 #+title: Notes on my first Eurorack VCO
-#+date: <2022-12-30 Fri>
+#+date: <2022-12-30 Fri--<2022-12-31 Sat>>
 
 - based on [[http://web.archive.org/web/20220120221542/http://www.djerickson.com/synth/][Dave Erickson's design]]
 
@@ -30,7 +30,7 @@
 
 ** Mouser
 
-- Matched PNPs: [[DMMT3906W][DMMT3906W]]
+- Matched PNPs: [[https://www.mouser.de/ProductDetail/Diodes-Incorporated/DMMT3906W-7-F?qs=gU%252BgVA%252B5zAAufMs218tfkw%3D%3D][DMMT3906W]]
 - Schottky Diodes: [[https://www.mouser.de/ProductDetail/Diodes-Incorporated/B130-13-F?qs=ktxrFkbdJI2hK4V%252BoGYiAQ%3D%3D][Mouser, B130-13-F (SMA)]]
 - Signal Diodes: [[https://www.mouser.de/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D][Mouser, 1N4148WS (onsemi)]]
 - OPA TL072: [[https://www.mouser.de/ProductDetail/Texas-Instruments/TL072CDR?qs=rshUhwi3fbas9IM4CCaZdw%3D%3D][Mouser, TL072CDR]]
