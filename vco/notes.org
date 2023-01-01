@@ -48,6 +48,8 @@
 11. Integrate the panel design
 12. When exporting to gerber, disable the component markings in the export dialog
 
+- redundancy: Holes need to be aligned for the PCB and twice for the panel (Inkscape, KiCad)
+
 * Buy List
 
 ** Mouser
