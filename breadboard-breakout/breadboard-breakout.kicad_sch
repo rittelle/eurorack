@@ -1901,7 +1901,7 @@
     (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 99.06 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" (id 2) (at 100.33 48.26 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (id 2) (at 100.33 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 48.26 0)
@@ -2465,7 +2465,7 @@
       (reference "F2") (unit 1) (value "Fuse 1206") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/94d0ad44-79f1-4cf2-b4c4-45fde72f1324"
-      (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
     (path "/740fb4bf-2e99-4976-b001-833aae14f32a"
       (reference "J2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
