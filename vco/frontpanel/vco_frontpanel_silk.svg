@@ -30,20 +30,27 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="5.6568543"
-     inkscape:cx="101.02788"
-     inkscape:cy="411.00582"
-     inkscape:window-width="1870"
+     inkscape:cx="100.8511"
+     inkscape:cy="49.497474"
+     inkscape:window-width="3780"
      inkscape:window-height="2063"
-     inkscape:window-x="1930"
+     inkscape:window-x="20"
      inkscape:window-y="50"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer11"
-     inkscape:lockguides="true">
+     inkscape:current-layer="svg5"
+     inkscape:lockguides="false">
     <inkscape:grid
        type="xygrid"
        id="grid1295"
        originx="0"
        originy="0" />
+    <sodipodi:guide
+       position="47.245001,115.25"
+       orientation="0,1"
+       id="guide2839"
+       inkscape:locked="true"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -337,7 +344,9 @@
      id="layer14"
      inkscape:label="Frontplate"
      style="image-rendering:auto"
-     inkscape:highlight-color="#2b1baa">
+     inkscape:highlight-color="#2b1baa"
+     transform="translate(0.51726219,-0.12007567)"
+     sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
        id="layer9"
@@ -379,11 +388,11 @@
          d="m 33.896469,106.61952 v -4.12534"
          id="path25266" />
       <path
-         style="mix-blend-mode:exclusion;fill:#ffffff;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35,1.05000169;stroke-dashoffset:0;stroke-opacity:1"
+         style="mix-blend-mode:exclusion;fill:#ffffff;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35, 1.05;stroke-dashoffset:0;stroke-opacity:1"
          d="m 36.556828,106.61952 v -4.11605"
          id="path25268" />
       <path
-         style="mix-blend-mode:exclusion;fill:none;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35,1.05000169;stroke-dashoffset:0;stroke-opacity:1"
+         style="mix-blend-mode:exclusion;fill:none;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35, 1.05;stroke-dashoffset:0;stroke-opacity:1"
          d="m 35.014243,106.60801 0.01437,-4.11871"
          id="path25388" />
       <path
@@ -391,7 +400,7 @@
          d="m 35.794095,106.61952 -0.0052,-4.11531"
          id="path25406" />
       <path
-         style="mix-blend-mode:exclusion;fill:none;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35,1.05000169;stroke-dashoffset:0;stroke-opacity:1"
+         style="mix-blend-mode:exclusion;fill:none;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35, 1.05;stroke-dashoffset:0;stroke-opacity:1"
          d="m 35.791495,102.499 h 0.765333"
          id="path25408"
          sodipodi:nodetypes="cc" />
@@ -405,7 +414,7 @@
          d="m 33.896469,102.48821 h 1.124958"
          id="path25412" />
       <path
-         style="mix-blend-mode:exclusion;fill:none;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35,0.7;stroke-dashoffset:0;stroke-opacity:1"
+         style="mix-blend-mode:exclusion;fill:none;stroke:#ffffff;stroke-width:0.35;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.35, 0.7;stroke-dashoffset:0;stroke-opacity:1"
          d="m 35.791494,106.61952 -0.770067,-0.0114"
          id="path25414" />
       <path
@@ -517,7 +526,7 @@
          y="0"><tspan
            x="55.083183"
            y="27.319556"
-           id="tspan68128">(VC|LF)O</tspan></text>
+           id="tspan3270">(VC|LF)O</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.25px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
@@ -682,8 +691,7 @@
     <g
        inkscape:groupmode="layer"
        id="layer10"
-       inkscape:label="LED mark"
-       sodipodi:insensitive="true">
+       inkscape:label="LED mark">
       <circle
          style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          id="path23904"
