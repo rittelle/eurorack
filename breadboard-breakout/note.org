@@ -1,0 +1,59 @@
+#+title: Escape
+#+subtitle: An interface module for breadboards
+#+date: <2023-01-02 Mon>
+
+* Goal
+
+As I'm new to diy synthesizers and audio electronics in general, I'll be using a breadboard to explore Ideas.  So I need a way to get from patch to jumper cables.  This is what this module aims to be.  A few potentiometers and switches are included for good measure (and they annoying to deal with on a breadboard).  I'm integrating this as a module into my rack to keep the device count (and the amount of stuff on my desk) small.  I may even integrate a small breadboard into my rack.
+
+* Functionality
+
+- 4 Jacks
+- 4 Potentiometers
+- 2 Switches
+- female 2.54" header for interfacing with the breadboard
+
+* Workflow
+
+I tried a different way to create the panel:
+
+1. Create the PCB schematic
+2. Assign footprints
+3. Design a panel in inkscape
+   - page size is panel size
+   - mark the dimensions of the electronics pcb on a helper layer
+   - board dimensions, holes and graphics on different layer subtrees
+   - Drilled holes need to be circles, not ellipses!  The source view can be used to check.
+   - use the grid, it speeds up a lot of things!
+     - an inch-derived grid that is centered worked best for me
+4. Export 3 files with different layer settings:
+   - the contents of the silk screen
+     - format: .png with a high resolution (512dpi here)
+     - visible layers: all graphics
+   - the board outline
+     - format: .dxf
+     - visible layers: board outline and slots (everything that is milled)
+   - a guide for the drilled holes
+     - format: .png with a high resolution
+     - visible layers: holes, board outline
+5. Create the electronics PCB
+   - place the guide as a footprint and use it to align jacks, potentiometers, switches, etc.
+   - matching the grid of inkscape greatly simplifies things
+   - a centered grid can be achieved by placing the board outline around the origin (it can be moved later)
+6. Match the UI elements to the template
+   - matching the grids makes this a matter of placing the footprints with the origin into the reference point (e.g. the center of a hole) and using the precise move command translate if the origin of the footprint does not match the reference point
+7. Lay out the electronics
+8. Create a schematic for the front panel
+9. Add holes to the schematic
+   - they can't be created in inkscape as they are handled differently in the manufacturing process (we don't want the manufacturer to mill circular holes)
+10. Create the PCB for the front panel
+11. Import the board outline into the Edge.Cuts layer and match the Inkscape grid
+12. Place the template as a footprint
+13. Use the template to position the holes
+14. Remove the template from the PCB
+15. Import the graphics into the silk screen and match the board outline
+16. Check with the measurement tool that the electronics PCB and the front panel match
+
+Future improvements to this workflow:
+
+- Add the holes directly to the PCB in the front panel?  We arent using the schematic anyway
