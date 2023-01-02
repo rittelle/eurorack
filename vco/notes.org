@@ -78,3 +78,10 @@
 - Switch caps: [[https://www.thonk.co.uk/shop/switchcaps-sub-mini/][Sub-minitiature switch caps]]
 - Power cables: [[https://www.thonk.co.uk/shop/eurorack-power-cables/][Power Cables (10-16 Pin)]]
 - Tempco resistors: [[https://www.thonk.co.uk/shop/tempco-resistor-akaneohm/][2k, bedrahtet]]
+
+* Possible Improvements
+
+- an additional CV input
+  - space is available
+  - would make the layout more symmetrical
+- CV amplifier/attenuator
