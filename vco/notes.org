@@ -1,5 +1,5 @@
 #+title: Notes on my first Eurorack VCO
-#+date: <2022-12-31 Sat>
+#+date: <2023-01-03 Tue>
 
 - based on [[http://web.archive.org/web/20220120221542/http://www.djerickson.com/synth/][Dave Erickson's design]]
 
@@ -84,4 +84,6 @@
 - an additional CV input
   - space is available
   - would make the layout more symmetrical
-- CV amplifier/attenuator
+- attenuverters for the CV inputs instead of simple voltage dividers
+- bipolar activity LED
+- test points on the PCB
