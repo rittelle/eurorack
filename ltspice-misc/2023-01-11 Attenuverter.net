@@ -1,0 +1,19 @@
+* Y:\dev\project\eurorack\ltspice-misc\2023-01-11 Attenuverter.asc
+V1 V+ 0 15
+V2 0 V- 15
+V3 cv 0 0
+XU1 N001 N002 V+ V- out TL072
+R1 N001 0 {100k*attenuverter}
+R2 cv N001 {100k*(1-attenuverter)}
+R3 N002 cv 100k
+R4 N001 0 {Rnonlinearity}
+R5 cv N001 {Rnonlinearity}
+R6 out N002 100k
+R7 out 0 10k
+* .param attenuverter=0.75
+.step param attenuverter 0.02 0.98 0.002
+.param Rnonlinearity=56k
+.dc V3 -5 5 0.1
+.lib Z:\home\lennart\nextcloud\msc\ltspice\models\TL072.301
+.backanno
+.end
