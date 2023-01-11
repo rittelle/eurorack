@@ -20,5 +20,4 @@ gerber/
 # LTSpice
 *.log
 *.op.raw
-*.plt
 *.raw
