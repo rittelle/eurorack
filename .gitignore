@@ -19,5 +19,6 @@ gerber/
 
 # LTSpice
 *.log
+*.net
 *.op.raw
 *.raw
