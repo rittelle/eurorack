@@ -1,6 +1,6 @@
 #+title: Escape
 #+subtitle: An interface module for breadboards
-#+date: <2023-01-02 Mon>
+#+date: <2023-01-14 Sat>
 
 * Goal
 
@@ -12,8 +12,20 @@ As I'm new to diy synthesizers and audio electronics in general, I'll be using a
 - 4 Potentiometers
 - 2 Switches
 - female 2.54" header for interfacing with the breadboard
+- polarity protection
 
-* Workflow
+* Idea
+
+- “precision” female headers as they are slightly round
+  - PCB manufacturers cannot mill sharp corners
+- rest is straight-forward
+
+* Design
+
+- I tried a different workflow to create the front panel
+- the rest was straight forward
+
+** Workflow
 
 I tried a different way to create the panel:
 
@@ -57,3 +69,33 @@ I tried a different way to create the panel:
 Future improvements to this workflow:
 
 - Add the holes directly to the PCB in the front panel?  We arent using the schematic anyway
+
+* Build
+
+- precision pin headers are too short
+  - ideas:
+    - perfboard as middle layer
+      - does not work as I'd need to put two pins in one hole
+    - bridging with solder
+      - distance too big
+    - using short pieces of wire
+* Bugs
+
+- Jacks are mixed up
+- Switches are rotated 180° compared to the connections
+- precision headers are too short (7mm platic and quite short pins)
+  - took a gamble during the design
+  - idea:
+    1. move the footprints 2.54mm to the side
+    2. use a piece of perfboard as a middle layer
+    3. solder male headers on one side and right next to them the precision female headers
+       - the precision headers will stick out a bit
+
+
+* Things to improve
+
+- if I ever make a second revision (I don't currently see why)
+  - I have 5 PCB
+  - I can imagine myself to build a second one for more IO, but not really more
+- move the middle header row (potentiometers) 1.27mm up or down, so that all headers are aligned to a 2.54mm grid
+  - makes the perfboard fix easier as it enables me to use only one piece as the middle layer
